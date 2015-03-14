@@ -2,7 +2,7 @@
 
 - 这是程序设计２我的上机代码。(学期号：20142，课堂号：01117502，教师：黄章进)  
 - 课程主页：http://staff.ustc.edu.cn/~zhuang/clp.htm  
-- 上机题形式：直接在 http://ustc.openjudge.cn上面答题。  
+- 上机题形式：直接在 http://ustc.openjudge.cn 上面答题。  
 - 和之前一样，我是以上机日期建立文件夹；文件名称是 openjudge 上面的全局题号。　　
 
 # 代码说明  
