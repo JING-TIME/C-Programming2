@@ -5,10 +5,10 @@
 
 #include <stdio.h>
 
-int transfer(unsigned int num) {
+int conversion(unsigned int num) {
     if (num<8) printf("%d", num%8);
     else {
-        transfer(num/8);
+        conversion(num/8);
         printf("%d", num%8);
     }
 }
@@ -18,7 +18,7 @@ int main()
     unsigned int num;
     scanf("%d", &num);
 
-    transfer(num);
+    conversion(num);
     printf("\n");
     return 0;
 }
