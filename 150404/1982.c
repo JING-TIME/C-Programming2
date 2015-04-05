@@ -1,5 +1,7 @@
 /*
-  ASCII 0~48, 9~57
+百练：http://bailian.openjudge.cn/practice/2981/
+大整数加法
+ASCII 0~48, 9~57
 */
 
 #include <stdio.h>
