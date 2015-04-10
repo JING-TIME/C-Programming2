@@ -1,6 +1,6 @@
 /*
-百练：http://bailian.openjudge.cn/practice/2981/
 大整数加法
+百练：http://bailian.openjudge.cn/practice/2981/
 ASCII 0~48, 9~57
 */
 
@@ -13,10 +13,10 @@ ASCII 0~48, 9~57
 int main()
 {
     int k, m;
-    char ai[N] = {0}, bi[N] = {0};    //ai,bi是倒序输入的数字
+    char ai[N+1] = {0}, bi[N+1] = {0};    //ai,bi是倒序输入的数字
     char *pa = ai, *pb = bi;
-    char a[N] = {0}, b[N] = {0};      //a,b把倒序改成正序
-    char sum[N+1] = {0};
+    char a[N+1] = {0}, b[N+1] = {0};      //a,b把倒序改成正序
+    char sum[N+2] = {0};
     int a_len, b_len;
 
     //输入部分，注意是从高位往低位输入
@@ -30,8 +30,8 @@ int main()
     b_len = strlen(pb);
 
     //逆序改回顺序
-    for (k=0; k<a_len; k++)  a[k] = *(pa+a_len-k-1) - 48;
-    for (k=0; k<b_len; k++)  b[k] = *(pb+b_len-k-1) - 48;
+    for (k=0; k<a_len; k++)  a[k] = *(pa+a_len-k-1) - '0';
+    for (k=0; k<b_len; k++)  b[k] = *(pb+b_len-k-1) - '0';
 
     //计算部分，从低位往高位计算
     for (k=0; k<a_len || k<b_len; k++) {
