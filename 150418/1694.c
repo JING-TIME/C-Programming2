@@ -34,7 +34,7 @@ int main()
     return 0;
 }
 
-bool isHeavy(char c) // 判断假币 x 是否为轻的代码
+bool isHeavy(char c) // 判断假币 x 是否为重的代码
 {
     int i, j;
     // 判断是否与三次称量结果矛盾
