@@ -1,5 +1,5 @@
 /*
-2980:大整数乘法
+2980:大整数乘法，打算用其他方式再写一遍
 http://bailian.openjudge.cn/practice/2980/
  */
 
@@ -32,8 +32,8 @@ int main()
     b_len = strlen(bi);
     r_len = a_len + b_len;
     //逆序改回顺序
-    for (k=0; k<a_len; k++)  a[k] = ai[a_len-k-1] - '0';
-    for (k=0; k<b_len; k++)  b[k] = bi[b_len-k-1] - '0';
+    for (k=0; k<a_len; k++)  a[k] = ai[a_len-k-1];
+    for (k=0; k<b_len; k++)  b[k] = bi[b_len-k-1];
 
 
 
