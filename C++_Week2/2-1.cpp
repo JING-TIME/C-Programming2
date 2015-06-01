@@ -23,6 +23,7 @@ public:
         year = date.year;
         month = date.month;
         day = date.day;
+        return *this;
     }
     void show(){
         cout << year << month << day << endl;
